@@ -1,11 +1,2 @@
 #!/bin/bash
-include <stdio.h>
-/**
- * main - Entry point
- *
- * Retiurn: always 0 (Success)
- */
-int main (void)
-{
-	return (0)
-}
+gcc main.c -o c
