@@ -1,5 +1,11 @@
 #include <stdio.h>
-/**Writing a string to standard output */
+/**
+ * main - entry point
+ *
+ * Return: Always 0 (Success)
+ *
+ */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
