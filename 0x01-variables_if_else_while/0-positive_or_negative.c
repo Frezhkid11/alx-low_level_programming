@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
  *Entry point - Main
  *Include - time
@@ -12,15 +13,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*If condition to determine the -ve of n*/
-	if (n < 0);
+	if(n < 0)
 	{
 		printf("is negative\n");
 	}
-	if (n == 0);
+	else if(n == 0)
 	{
 		printf("is zero\n");
 	}
-	if (n > 0);
+	else(n > 0);
 	{
 		printf("is positive\n");
 	}
