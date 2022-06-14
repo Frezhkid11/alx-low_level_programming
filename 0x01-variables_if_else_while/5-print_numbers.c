@@ -11,9 +11,11 @@ int main(void)
 	/*Loop to restrict more than 10*/
 	while (digits < 10)
 	{
-		printf("%d\n", digits);
+		printf("%d", digits);
+		printf("\n");
 		digits++;
 	}
+	printf("\n");
 	return (0);
 }
 
