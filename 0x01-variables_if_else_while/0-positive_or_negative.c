@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
 /**
- *Entry point - Main
- *Include - time
+ * Main - Entry point
+ * Include - time
  *
  * Return: Always 0 (sucess)
  */
+/*Main - Entry point*/
 int main(void)
 {
 	int n;
@@ -16,15 +18,15 @@ int main(void)
 	/*If condition to determine the -ve of n*/
 	if (n < 0)
 	{
-		printf("is negative\n");
+		printf("%d is negative\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("is positive\n");
+		printf("%d is positive\n", n);
 	}
 	return (0);
 }
