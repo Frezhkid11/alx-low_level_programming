@@ -10,18 +10,19 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*If condition to determine the -ve of n*/
-	if(n < 0)
+	if (n < 0)
 	{
 		printf("is negative\n");
 	}
-	else if(n == 0)
+	else if (n == 0)
 	{
 		printf("is zero\n");
 	}
-	else(n > 0);
+	else
 	{
 		printf("is positive\n");
 	}
