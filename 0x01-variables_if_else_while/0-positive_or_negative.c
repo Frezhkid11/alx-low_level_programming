@@ -3,12 +3,10 @@
 #include <stdlib.h>
 
 /**
- * Main - Entry point
- * Include - time
- *
- * Return: Always 0 (sucess)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
-/*Main - Entry point*/
+
 int main(void)
 {
 	int n;
