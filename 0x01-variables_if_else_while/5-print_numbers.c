@@ -12,7 +12,6 @@ int main(void)
 	while (digits < 10)
 	{
 		printf("%d", digits);
-		printf("\n");
 		digits++;
 	}
 	printf("\n");
