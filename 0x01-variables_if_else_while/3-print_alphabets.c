@@ -6,6 +6,7 @@
 int main(void)
 {
 	int ch;
+	int CH;
 
 	ch = 'a';
 	/*entering into the while loop*/
@@ -14,8 +15,6 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	int CH;
-
 	CH = 'A';
 	/*Another while loop for Uppercase letters*/
 	while (CH <= 'Z')
