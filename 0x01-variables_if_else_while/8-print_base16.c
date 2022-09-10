@@ -7,6 +7,7 @@
 int main(void)
 {
 	int digit;
+	char no;
 
 	digit = 48;
 	/*loop to print first the digits 0-9*/
@@ -15,8 +16,6 @@ int main(void)
 		putchar(digit);
 		digit++;
 	}
-	char no;
-
 	no = 'a';
 	/*loop to print the letters a-f*/
 	while (no <= 'f')
