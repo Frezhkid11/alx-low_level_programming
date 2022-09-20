@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - Prints number passed as interger up to 98
  * @n: Starting point for the function
@@ -11,18 +12,14 @@ void print_to_98(int n)
 	{
 		for (n = n; n <= 97; n++)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
 	else
 	{
 		for  (n = n; n > 98; n--)
 		{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
 	_putchar('9');
