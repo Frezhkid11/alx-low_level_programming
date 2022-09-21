@@ -10,7 +10,7 @@ void print_most_numbers(void)
 	int a;
 
 	a = 48;
-	while ((a >= 48 ) && (a <= 57))
+	while ((a >= 48) && (a <= 57))
 	{
 		if ((a == 50) || (a == 52))
 		{
