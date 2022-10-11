@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * @argc: counter of argument
- * @argv[]: Array containing strings passed as argument
+ * @argv: Array containing strings passed as argument
  * Return: Always (0) Successful
  */
 
