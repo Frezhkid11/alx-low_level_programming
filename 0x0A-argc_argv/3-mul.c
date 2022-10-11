@@ -10,13 +10,9 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
 	int mul;
 
-	for (i = 0; i < argc; i++)
-	{
-	}
-	if ((i > 3) || (i < 2))
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
