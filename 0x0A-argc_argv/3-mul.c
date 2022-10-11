@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	for (i = 0; i < argc; i++)
 	{
 	}
-	if (i > 3)
+	if ((i > 3) || (i < 2))
 	{
 		printf("Error\n");
 		return (1);
