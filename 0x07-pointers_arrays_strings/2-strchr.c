@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strchr - A function that searches for a character in a string
  * @s: argument string which is to be searched
